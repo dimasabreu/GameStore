@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
+    [SerializeField] private Stat health;
     
     Vector2 movementInput;
     Rigidbody2D rb;
@@ -40,6 +41,7 @@ public class PlayerController : MonoBehaviour
         else{
             animator.SetLayerWeight(1, 0);
         }
+        health.MyCurrentValue = 1000;
     }
 
     private bool TryMove(Vector2 direction)
