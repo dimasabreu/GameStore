@@ -37,6 +37,9 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+        else{
+            animator.SetLayerWeight(1, 0);
+        }
     }
 
     private bool TryMove(Vector2 direction)
@@ -55,8 +58,11 @@ public class PlayerController : MonoBehaviour
         } 
         else
         {
+            animator.SetLayerWeight(1, 0);
             return false;
         }
+
+        
     }
     void OnMove(InputValue movementValue)
     {
@@ -65,6 +71,8 @@ public class PlayerController : MonoBehaviour
 
     public void AnimateMovement(Vector2 direction)
     {
+        animator.SetLayerWeight(1,1);
+        //Sets the animation parameter so that he faces the correct direction
         animator.SetFloat("x", direction.x);
         animator.SetFloat("y", direction.y);
     }
