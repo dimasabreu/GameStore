@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f136caa43825d0c409aa021f6b0a9427
+guid: a606ce85ea477af469ac48f8b45b87fa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_0
+      name: calcateste_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb2d45b5a4278ff47a5ff2238298c9c6
-      internalID: -762547139
+      spriteID: da3611328bbebfa43bf32bdd5287ebf7
+      internalID: 143353747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_1
+      name: calcateste_1
       rect:
         serializedVersion: 2
         x: 48
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d93b0dfb4bb5da4f99723dcbbda543d
-      internalID: 1414524371
+      spriteID: b05f8a81b34e28a4d98a2d752c7971d4
+      internalID: -1728962137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_2
+      name: calcateste_2
       rect:
         serializedVersion: 2
         x: 96
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d406e3cc2d3c60c41a7e48a7caad8e52
-      internalID: -2016595606
+      spriteID: 9709668a5f28d4548be1c4f43fe3bceb
+      internalID: -139093637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_3
+      name: calcateste_3
       rect:
         serializedVersion: 2
         x: 144
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c2c79c84fb5264d8e29116f215188b
-      internalID: 284792860
+      spriteID: 51b7f53aa09cddb49b4e57c687df6d0f
+      internalID: 3718102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_4
+      name: calcateste_4
       rect:
         serializedVersion: 2
         x: 192
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebc28e47e5f545b41978e9d0a6098c89
-      internalID: 1459389343
+      spriteID: b9f22ae62c1c86846996862813779693
+      internalID: -2122915438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_5
+      name: calcateste_5
       rect:
         serializedVersion: 2
         x: 240
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d3f0665a271f9343afca21f020268e4
-      internalID: 1777407633
+      spriteID: 0447bcf04ec2bc04b912248420e70a73
+      internalID: 1853481729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_6
+      name: calcateste_6
       rect:
         serializedVersion: 2
         x: 0
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8087397b0779679489891e106da10a3c
-      internalID: 880137974
+      spriteID: 3e35573eac1f93341be1bf4f6f0b184c
+      internalID: 1370081678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_7
+      name: calcateste_7
       rect:
         serializedVersion: 2
         x: 48
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65349a29caed1c7499150f3a086574c8
-      internalID: 1453818295
+      spriteID: 28d432c5a4c52fc41a8ba819df29e53d
+      internalID: 465942784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_8
+      name: calcateste_8
       rect:
         serializedVersion: 2
         x: 96
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 591cbd4cd63510847bc70d9a5fb378a9
-      internalID: 118578122
+      spriteID: 7fcd6a5c58a11104aa2e633b4fc5380a
+      internalID: -1378898920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_9
+      name: calcateste_9
       rect:
         serializedVersion: 2
         x: 144
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 426835a4e62cb9747b1a4a319ef43e3d
-      internalID: -1928737688
+      spriteID: 8b30dedd414617e47a873587f0d78e4a
+      internalID: -1767884112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_10
+      name: calcateste_10
       rect:
         serializedVersion: 2
         x: 192
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 475949d54e659614495b6495c3108a39
-      internalID: -496715336
+      spriteID: f506a5a3ce1d6b244b67bc2d18d1e9f8
+      internalID: 1083689178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_11
+      name: calcateste_11
       rect:
         serializedVersion: 2
         x: 240
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f7b0a853d147e48a07a1c2c3c38c08
-      internalID: 149825317
+      spriteID: 81749c35033c49744a4d7cc7b5a3c4fa
+      internalID: -666350329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_12
+      name: calcateste_12
       rect:
         serializedVersion: 2
         x: 0
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 124063a055eb9b24686fedce56459e1e
-      internalID: 1953889891
+      spriteID: f32332bdc0b5aa745b466b30fafb0e2f
+      internalID: -166222751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_13
+      name: calcateste_13
       rect:
         serializedVersion: 2
         x: 48
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25cece0cacd9806438d1144255bab789
-      internalID: 1832308562
+      spriteID: 8c096f14836102741888b74f342e3ad3
+      internalID: -668844066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_14
+      name: calcateste_14
       rect:
         serializedVersion: 2
         x: 96
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01663ed51a948094eb9f19b94b04ceac
-      internalID: -1709008237
+      spriteID: d850b31eb12010f4693d3d513bbc5080
+      internalID: 1526478943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_15
+      name: calcateste_15
       rect:
         serializedVersion: 2
         x: 144
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ba38313856bdba449cc05e1ed02b6a2
-      internalID: -816157524
+      spriteID: f713bedeee473a54597f397815d07f5c
+      internalID: -832584659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_16
+      name: calcateste_16
       rect:
         serializedVersion: 2
         x: 192
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5049fe6653af8f04cbd396be16a23b60
-      internalID: -1199605095
+      spriteID: 7aa7ab252bdddfe49bdc30d2bb1813d2
+      internalID: 1805609383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_17
+      name: calcateste_17
       rect:
         serializedVersion: 2
         x: 240
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4e2f6995e2b4f04ca8c424e90dec645
-      internalID: -360565613
+      spriteID: 7f4ac9c83b744dd44990c612bea53a57
+      internalID: -1319788873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_18
+      name: calcateste_18
       rect:
         serializedVersion: 2
         x: 0
@@ -496,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5917e14618c588f4bb636b5ab8711ea7
-      internalID: 32222948
+      spriteID: 9b2bbe397bc7dc943bcf99cae23e0bef
+      internalID: 453526379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_19
+      name: calcateste_19
       rect:
         serializedVersion: 2
         x: 48
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 879c3e39a59bd49429cca06bbe25469b
-      internalID: -1474016061
+      spriteID: d5cb9df9e390a0c489bd615a17d068b8
+      internalID: 682011286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_20
+      name: calcateste_20
       rect:
         serializedVersion: 2
         x: 96
@@ -538,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4864455fa0c247e4ca42813dd72ee095
-      internalID: 841215487
+      spriteID: 69d2efedce121414eb0731241d94f44a
+      internalID: -600888779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_21
+      name: calcateste_21
       rect:
         serializedVersion: 2
         x: 144
@@ -559,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6691cda6db25a224786a90813d45d8b2
-      internalID: -1903661213
+      spriteID: 8d7b6743d99f12548a18061bfdac98a2
+      internalID: 151202858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_22
+      name: calcateste_22
       rect:
         serializedVersion: 2
         x: 192
@@ -580,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc9c68d7951cf3b42988c49aa1c75f85
-      internalID: 666994400
+      spriteID: a7b9f421813b30546b9d8163ced2db02
+      internalID: -840854680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_23
+      name: calcateste_23
       rect:
         serializedVersion: 2
         x: 240
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 750a3ba02171a714ea3f4a964a9b2247
-      internalID: -1827550677
+      spriteID: 383697e98f2764d4e901b0f6a5f7ea00
+      internalID: -1287933133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_24
+      name: calcateste_24
       rect:
         serializedVersion: 2
         x: 0
@@ -622,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b8fb4c3ab8258742a7847f99f0da05e
-      internalID: -1833715283
+      spriteID: e27f7f04c6cafde4c86e7f5ba97a3677
+      internalID: -1251020804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_25
+      name: calcateste_25
       rect:
         serializedVersion: 2
         x: 48
@@ -643,14 +643,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8816701cc1cd38d4a9ccd138d11a092d
-      internalID: 1183798267
+      spriteID: 3b2229ae81c9b8e46802269d4bfe8cae
+      internalID: 362438837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_26
+      name: calcateste_26
       rect:
         serializedVersion: 2
         x: 96
@@ -664,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa30cca6b01cade4b80f3bc4faa40ecb
-      internalID: -1417400151
+      spriteID: e126ed40738843143a68621df6d08c26
+      internalID: -1464241879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_27
+      name: calcateste_27
       rect:
         serializedVersion: 2
         x: 144
@@ -685,14 +685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 945783e2d85a6ef479accba6bfd66e6d
-      internalID: -149625096
+      spriteID: 464b966a5520df540b8d715004cb0c0e
+      internalID: -1697571175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_28
+      name: calcateste_28
       rect:
         serializedVersion: 2
         x: 192
@@ -706,14 +706,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae43d2eecc7213344a190a12399471f6
-      internalID: -204297767
+      spriteID: 901a4a5631f0a9140999a8d50337c7b0
+      internalID: 1298140950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_29
+      name: calcateste_29
       rect:
         serializedVersion: 2
         x: 240
@@ -727,14 +727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbd6e3c25e98490429e84c4eb6935950
-      internalID: -399053395
+      spriteID: 0109870d58a261248b40a0988e63add8
+      internalID: -359919299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_30
+      name: calcateste_30
       rect:
         serializedVersion: 2
         x: 0
@@ -748,14 +748,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01e10091a9f988343bfc87ecbf3dff06
-      internalID: -804664122
+      spriteID: dc9b4d78b174a5a499a5db77fa39d00f
+      internalID: -1266601320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_31
+      name: calcateste_31
       rect:
         serializedVersion: 2
         x: 48
@@ -769,14 +769,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fdb893db1a9a784caa8c1a67be1661f
-      internalID: 554370811
+      spriteID: 65c0ee6f5f480864ba548143ef15338c
+      internalID: -720732598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_32
+      name: calcateste_32
       rect:
         serializedVersion: 2
         x: 96
@@ -790,14 +790,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e956b340f77092429efa811ff9fb112
-      internalID: -60298971
+      spriteID: c265c94fd2810ee48bd972b2ba915a56
+      internalID: -1182213750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_33
+      name: calcateste_33
       rect:
         serializedVersion: 2
         x: 144
@@ -811,14 +811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c86bf2096741e8e46b066b4aec092858
-      internalID: 359163658
+      spriteID: f611b101c9fd3044cb45555e6484edd4
+      internalID: -1406840955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_34
+      name: calcateste_34
       rect:
         serializedVersion: 2
         x: 192
@@ -832,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d382b2b9f4c13f04eb4fa2a3e6507f3e
-      internalID: 2057047182
+      spriteID: 635c99e359b2e4f4084551eb21e48f06
+      internalID: 228817905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_35
+      name: calcateste_35
       rect:
         serializedVersion: 2
         x: 240
@@ -853,14 +853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e9ccbaf16916243976d6ba4955c23f
-      internalID: 1727238085
+      spriteID: b224c347acf0bf345a741cefd29194da
+      internalID: -414592231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_36
+      name: calcateste_36
       rect:
         serializedVersion: 2
         x: 0
@@ -874,14 +874,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9538fa8cde0842a4c8fd644283f307b3
-      internalID: 367482700
+      spriteID: ebd3230a0af6e554894299a0d06ee678
+      internalID: 1321501395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_37
+      name: calcateste_37
       rect:
         serializedVersion: 2
         x: 48
@@ -895,14 +895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 933ce992d2708e4499724ed728cea583
-      internalID: -637646977
+      spriteID: c213f099294c35c48bc369e03d20072c
+      internalID: -1698007483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_38
+      name: calcateste_38
       rect:
         serializedVersion: 2
         x: 96
@@ -916,14 +916,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dc7068d4e0c7df488b2cfc9df60b8f9
-      internalID: 1985282805
+      spriteID: 41c97d759e61337448dc414bd8b7dc4a
+      internalID: 859999908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_39
+      name: calcateste_39
       rect:
         serializedVersion: 2
         x: 144
@@ -937,14 +937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1bbadf79300d2f46b615165d7f590fa
-      internalID: 1334077894
+      spriteID: b0b970e91cd7c6349b9d37840bb4b1db
+      internalID: -2038303309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_40
+      name: calcateste_40
       rect:
         serializedVersion: 2
         x: 192
@@ -958,14 +958,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea25458edc9dc2f47b6380f8b5e1ae78
-      internalID: -1428060141
+      spriteID: 2747a5c640411b648a98c14cfdff1d14
+      internalID: -48567911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_41
+      name: calcateste_41
       rect:
         serializedVersion: 2
         x: 240
@@ -979,14 +979,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c541e6a647a0674d948242c468f31e6
-      internalID: -527610354
+      spriteID: ed2a217d872ede94b82811e0d382c6f9
+      internalID: 536043124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_42
+      name: calcateste_42
       rect:
         serializedVersion: 2
         x: 0
@@ -1000,14 +1000,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1913549126055aa49bfb4ec32e9c18d8
-      internalID: 1363650016
+      spriteID: 478a9e3837fdaa343858fcd94e9729d4
+      internalID: 1714240108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_43
+      name: calcateste_43
       rect:
         serializedVersion: 2
         x: 48
@@ -1021,14 +1021,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2f56b449fce4e144bc87333accb431d
-      internalID: 1344300072
+      spriteID: 67429f73da37117408131b29494597a7
+      internalID: -1728999969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_44
+      name: calcateste_44
       rect:
         serializedVersion: 2
         x: 96
@@ -1042,14 +1042,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 048cd264b263060459bdc4e611cc39e7
-      internalID: 1922208291
+      spriteID: 7613585444a88d844beb2995deb6209e
+      internalID: 273724534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_45
+      name: calcateste_45
       rect:
         serializedVersion: 2
         x: 144
@@ -1063,14 +1063,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f08153cfdc85de489334bd27595133d
-      internalID: 596513787
+      spriteID: b44bb699ca9b0994a844268a3bc353d9
+      internalID: -501370086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_46
+      name: calcateste_46
       rect:
         serializedVersion: 2
         x: 0
@@ -1084,14 +1084,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcc3c3a27d3c6da49aeed76abf2bcc9d
-      internalID: -568308936
+      spriteID: 6d6bfbc31bb2c93488db2bd844455d03
+      internalID: -370377621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_47
+      name: calcateste_47
       rect:
         serializedVersion: 2
         x: 48
@@ -1105,14 +1105,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62f0dffd2d794fe47873cf0574efdbc9
-      internalID: 1068089800
+      spriteID: 2f97de14238e58f438785832b72b2cf3
+      internalID: -1922332892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_48
+      name: calcateste_48
       rect:
         serializedVersion: 2
         x: 96
@@ -1126,14 +1126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c7cf92ccd002746a1f04cebc9a9e07
-      internalID: -1566311563
+      spriteID: 1e908fbf491310c4ca26ab8afd1f834e
+      internalID: -1184906454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_49
+      name: calcateste_49
       rect:
         serializedVersion: 2
         x: 144
@@ -1147,14 +1147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9f975ee1784b814090ea96cc2968b2f
-      internalID: -59977522
+      spriteID: e8ef516059e1959478da63f73c12a637
+      internalID: 351700355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_50
+      name: calcateste_50
       rect:
         serializedVersion: 2
         x: 0
@@ -1168,14 +1168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51f74ec8e31d9bc40aa4c7af2754edea
-      internalID: 1281667093
+      spriteID: 88ca63077f6d0924ebaff3cca9544f1a
+      internalID: 2038330323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_51
+      name: calcateste_51
       rect:
         serializedVersion: 2
         x: 48
@@ -1189,14 +1189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3332d725a6edd1f4cae6fc921c463796
-      internalID: 1081078960
+      spriteID: 011cae22bc035fe4ea6ab96bdbb466bd
+      internalID: 1634275456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_52
+      name: calcateste_52
       rect:
         serializedVersion: 2
         x: 96
@@ -1210,14 +1210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36fef4ee80c902b4ca8929803210df99
-      internalID: 1374440448
+      spriteID: 43b5c8a5d690b8c4bb12ab41ab794bbc
+      internalID: 2143559180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_53
+      name: calcateste_53
       rect:
         serializedVersion: 2
         x: 144
@@ -1231,14 +1231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c033f75622f89554482bc8c5d21c3958
-      internalID: -136846441
+      spriteID: a6984bb89241f4747b0bee0ce0c6d2b2
+      internalID: -1778506346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_54
+      name: calcateste_54
       rect:
         serializedVersion: 2
         x: 0
@@ -1252,14 +1252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ebcd970dcead048a3be40e530bcd6f
-      internalID: 1822689293
+      spriteID: f019451a529496f4f93c09c79ba50c5a
+      internalID: 2147134660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_55
+      name: calcateste_55
       rect:
         serializedVersion: 2
         x: 48
@@ -1273,14 +1273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b8d2595c71cecd4dbf2001db2cd0b02
-      internalID: 1356947803
+      spriteID: 26eba7df4ff69ba41a7dd022b73dc0e3
+      internalID: -1155712816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_56
+      name: calcateste_56
       rect:
         serializedVersion: 2
         x: 96
@@ -1294,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70e7da5150c33544fb4d580041507734
-      internalID: 531162929
+      spriteID: 60e36516a7bc2e944bd2476b8d9b126c
+      internalID: -402820088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_57
+      name: calcateste_57
       rect:
         serializedVersion: 2
         x: 144
@@ -1315,8 +1315,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fc5547d356da6546af1b5c430e40e8a
-      internalID: 1161653115
+      spriteID: 9c281b1de05a8764986ea3c777d98214
+      internalID: -1381883767
       vertices: []
       indices: 
       edges: []
@@ -1332,64 +1332,64 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player_50: 1281667093
-      player_15: -816157524
-      player_12: 1953889891
-      player_19: -1474016061
-      player_26: -1417400151
-      player_41: -527610354
-      player_25: 1183798267
-      player_37: -637646977
-      player_55: 1356947803
-      player_23: -1827550677
-      player_31: 554370811
-      player_0: -762547139
-      player_24: -1833715283
-      player_36: 367482700
-      player_40: -1428060141
-      player_3: 284792860
-      player_6: 880137974
-      player_57: 1161653115
-      player_2: -2016595606
-      player_29: -399053395
-      player_47: 1068089800
-      player_34: 2057047182
-      player_17: -360565613
-      player_13: 1832308562
-      player_44: 1922208291
-      player_28: -204297767
-      player_11: 149825317
-      player_27: -149625096
-      player_1: 1414524371
-      player_56: 531162929
-      player_16: -1199605095
-      player_8: 118578122
-      player_14: -1709008237
-      player_21: -1903661213
-      player_35: 1727238085
-      player_4: 1459389343
-      player_5: 1777407633
-      player_46: -568308936
-      player_38: 1985282805
-      player_33: 359163658
-      player_45: 596513787
-      player_9: -1928737688
-      player_30: -804664122
-      player_39: 1334077894
-      player_54: 1822689293
-      player_52: 1374440448
-      player_18: 32222948
-      player_48: -1566311563
-      player_10: -496715336
-      player_53: -136846441
-      player_22: 666994400
-      player_49: -59977522
-      player_20: 841215487
-      player_43: 1344300072
-      player_51: 1081078960
-      player_32: -60298971
-      player_42: 1363650016
-      player_7: 1453818295
+      calcateste_51: 1634275456
+      calcateste_34: 228817905
+      calcateste_43: -1728999969
+      calcateste_52: 2143559180
+      calcateste_42: 1714240108
+      calcateste_12: -166222751
+      calcateste_9: -1767884112
+      calcateste_24: -1251020804
+      calcateste_5: 1853481729
+      calcateste_31: -720732598
+      calcateste_40: -48567911
+      calcateste_48: -1184906454
+      calcateste_35: -414592231
+      calcateste_56: -402820088
+      calcateste_29: -359919299
+      calcateste_36: 1321501395
+      calcateste_2: -139093637
+      calcateste_7: 465942784
+      calcateste_32: -1182213750
+      calcateste_23: -1287933133
+      calcateste_16: 1805609383
+      calcateste_50: 2038330323
+      calcateste_10: 1083689178
+      calcateste_33: -1406840955
+      calcateste_44: 273724534
+      calcateste_54: 2147134660
+      calcateste_38: 859999908
+      calcateste_39: -2038303309
+      calcateste_55: -1155712816
+      calcateste_27: -1697571175
+      calcateste_49: 351700355
+      calcateste_45: -501370086
+      calcateste_28: 1298140950
+      calcateste_37: -1698007483
+      calcateste_1: -1728962137
+      calcateste_3: 3718102
+      calcateste_18: 453526379
+      calcateste_14: 1526478943
+      calcateste_30: -1266601320
+      calcateste_6: 1370081678
+      calcateste_17: -1319788873
+      calcateste_22: -840854680
+      calcateste_57: -1381883767
+      calcateste_19: 682011286
+      calcateste_11: -666350329
+      calcateste_47: -1922332892
+      calcateste_25: 362438837
+      calcateste_41: 536043124
+      calcateste_13: -668844066
+      calcateste_26: -1464241879
+      calcateste_8: -1378898920
+      calcateste_15: -832584659
+      calcateste_21: 151202858
+      calcateste_20: -600888779
+      calcateste_4: -2122915438
+      calcateste_46: -370377621
+      calcateste_53: -1778506346
+      calcateste_0: 143353747
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
