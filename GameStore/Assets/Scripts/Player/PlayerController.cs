@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     private PlayerInput playerInput;
-    private Animator animator;
+    private Animator myAnimator;
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        myAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
             }
         }
         else{
-            animator.SetLayerWeight(1, 0);
+            myAnimator.SetLayerWeight(1, 0);
         }
 
         if(Keyboard.current.oKey.wasPressedThisFrame)
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
         } 
         else
         {
-            animator.SetLayerWeight(1, 0);
+            myAnimator.SetLayerWeight(1, 0);
             return false;
         }
 
@@ -100,10 +100,10 @@ public class PlayerController : MonoBehaviour
 
     public void AnimateMovement(Vector2 direction)
     {
-        animator.SetLayerWeight(1,1);
+        myAnimator.SetLayerWeight(1,1);
         //Sets the animation parameter so that he faces the correct direction
-        animator.SetFloat("x", direction.x);
-        animator.SetFloat("y", direction.y);
+        myAnimator.SetFloat("x", direction.x);
+        myAnimator.SetFloat("y", direction.y);
     }
 
 }
