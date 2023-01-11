@@ -26,7 +26,14 @@ public class Stat : MonoBehaviour
             {
                 currentValue = 0;
             }
+            else
+            {
+                currentValue = value;
+            }
+
+            currentFill = currentValue / MyMaxValue;
         }
+        
     }
 
     
@@ -40,7 +47,13 @@ public class Stat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MyMaxValue = 100;
+        content.fillAmount = currentFill;
         Debug.Log(MyCurrentValue);
+    }
+
+    public void Initialize(float currentValue, float maxValue)
+    {
+        MyMaxValue = maxValue;
+        MyCurrentValue = currentValue;
     }
 }

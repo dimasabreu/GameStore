@@ -4569,6 +4569,14 @@ PrefabInstance:
       propertyPath: health
       value: 
       objectReference: {fileID: 1018362121}
+    - target: {fileID: 5997698521014264264, guid: 78a4681b9449ce449bdcf4f2d37ad90c, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997698521014264264, guid: 78a4681b9449ce449bdcf4f2d37ad90c, type: 3}
+      propertyPath: initialHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7799655054072486535, guid: 78a4681b9449ce449bdcf4f2d37ad90c, type: 3}
       propertyPath: m_Name
       value: Player
