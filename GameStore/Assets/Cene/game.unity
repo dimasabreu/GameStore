@@ -474,6 +474,7 @@ GameObject:
   - component: {fileID: 974208772}
   - component: {fileID: 974208774}
   - component: {fileID: 974208773}
+  - component: {fileID: 974208775}
   m_Layer: 5
   m_Name: BagButton
   m_TagString: Untagged
@@ -539,6 +540,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974208771}
   m_CullTransparentMesh: 1
+--- !u!114 &974208775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974208771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da0cd7fb947321479e20ddebc1a4637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  full: {fileID: 21300000, guid: 94a0023814ca2f242881847c680b7cfa, type: 3}
+  empty: {fileID: 21300000, guid: 1c4bafd3ec7dff84bba00fc8e71850db, type: 3}
 --- !u!1 &1018362117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,6 +3915,7 @@ GameObject:
   - component: {fileID: 1560563134}
   - component: {fileID: 1560563136}
   - component: {fileID: 1560563135}
+  - component: {fileID: 1560563137}
   m_Layer: 5
   m_Name: BagButton
   m_TagString: Untagged
@@ -3965,6 +3981,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560563133}
   m_CullTransparentMesh: 1
+--- !u!114 &1560563137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560563133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da0cd7fb947321479e20ddebc1a4637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  full: {fileID: 21300000, guid: 94a0023814ca2f242881847c680b7cfa, type: 3}
+  empty: {fileID: 21300000, guid: 1c4bafd3ec7dff84bba00fc8e71850db, type: 3}
 --- !u!4 &1634890264 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5199783335927751065, guid: 78a4681b9449ce449bdcf4f2d37ad90c, type: 3}
@@ -3981,6 +4011,7 @@ GameObject:
   - component: {fileID: 1763316875}
   - component: {fileID: 1763316877}
   - component: {fileID: 1763316876}
+  - component: {fileID: 1763316878}
   m_Layer: 5
   m_Name: BagButton
   m_TagString: Untagged
@@ -4046,6 +4077,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763316874}
   m_CullTransparentMesh: 1
+--- !u!114 &1763316878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763316874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da0cd7fb947321479e20ddebc1a4637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  full: {fileID: 21300000, guid: 94a0023814ca2f242881847c680b7cfa, type: 3}
+  empty: {fileID: 21300000, guid: 1c4bafd3ec7dff84bba00fc8e71850db, type: 3}
 --- !u!1 &1825539427
 GameObject:
   m_ObjectHideFlags: 3
@@ -42677,6 +42722,7 @@ GameObject:
   - component: {fileID: 1971346783}
   - component: {fileID: 1971346785}
   - component: {fileID: 1971346784}
+  - component: {fileID: 1971346786}
   m_Layer: 5
   m_Name: BagButton
   m_TagString: Untagged
@@ -42742,6 +42788,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971346782}
   m_CullTransparentMesh: 1
+--- !u!114 &1971346786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971346782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da0cd7fb947321479e20ddebc1a4637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  full: {fileID: 21300000, guid: 94a0023814ca2f242881847c680b7cfa, type: 3}
+  empty: {fileID: 21300000, guid: 1c4bafd3ec7dff84bba00fc8e71850db, type: 3}
 --- !u!1001 &94996610126976996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42837,6 +42897,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inventory
       objectReference: {fileID: 0}
+    - target: {fileID: 7723420375042025796, guid: a159933a30149684a875ea3ccd9a62b7, type: 3}
+      propertyPath: bagButtons.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723420375042025796, guid: a159933a30149684a875ea3ccd9a62b7, type: 3}
+      propertyPath: bagButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 974208775}
+    - target: {fileID: 7723420375042025796, guid: a159933a30149684a875ea3ccd9a62b7, type: 3}
+      propertyPath: bagButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 1971346786}
+    - target: {fileID: 7723420375042025796, guid: a159933a30149684a875ea3ccd9a62b7, type: 3}
+      propertyPath: bagButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 1763316878}
+    - target: {fileID: 7723420375042025796, guid: a159933a30149684a875ea3ccd9a62b7, type: 3}
+      propertyPath: bagButtons.Array.data[3]
+      value: 
+      objectReference: {fileID: 1560563137}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a159933a30149684a875ea3ccd9a62b7, type: 3}
 --- !u!1001 &3943638597310237917

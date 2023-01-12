@@ -67,10 +67,7 @@ public class PlayerController : MonoBehaviour
         {
             health.MyCurrentValue -= 10;
         }
-        if(Keyboard.current.bKey.wasPressedThisFrame)
-        {
-            InventoryScript.MyInstance.OpenClose();
-        }
+        
     }
 
 
