@@ -5,6 +5,7 @@ using UnityEngine;
 public class InventoryScript : MonoBehaviour
 {
     private static InventoryScript instance;
+    private List<Bag> bags = new List<Bag>();
 
     public static InventoryScript MyInstance
     {
@@ -26,14 +27,18 @@ public class InventoryScript : MonoBehaviour
         bag.Initialize(16);
         bag.Use();
     }
-    void Start()
+
+    public void OpenClose()
     {
-        
+        bool closedBag = bags.Find(x => !x.MyBagScript.IsOPen);
+
+        foreach (Bag bag in bags)
+        {
+            if (bag.MyBagScript.IsOPen != closedBag)
+            {
+                bag.MyBagScript.OpenClose();
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

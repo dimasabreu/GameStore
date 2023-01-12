@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 70957230135507830}
   - component: {fileID: 8282133920812905449}
   - component: {fileID: 1237110719343224821}
+  - component: {fileID: -2476070896886474528}
   m_Layer: 5
   m_Name: Bag
   m_TagString: Untagged
@@ -130,3 +131,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotPrefab: {fileID: 3399062522270906284, guid: 382e41c316124d94fb42799577977ac4, type: 3}
+--- !u!225 &-2476070896886474528
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273417401404657584}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
