@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 0787b5959d9d71847a29ecb1e20bd61f
+guid: 7300db0c977399445b49ed389f24c0ef
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - icon: {instanceID: 0}
-  - bagPrefab: {fileID: 7273417401404657584, guid: 8ae46d63d4165f449af62d9cccb9e13d, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

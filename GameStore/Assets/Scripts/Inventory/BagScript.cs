@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BagScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject slotPrefab;
+    
+    public void AddSlots(int slotCount)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        for (int i = 0; i < slotCount; i++)
+        {
+            Instantiate(slotPrefab, transform);
+        }
     }
 }

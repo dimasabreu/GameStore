@@ -1,18 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Bag : MonoBehaviour
+[CreateAssetMenu(fileName = "Bag", menuName = "Items/Bag", order = 1)]
+public class Bag : Item, IUseable
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private int slots;
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField] private GameObject bagPrefab;
+    public BagScript MyBagScript { get; set; }
+    public int Slots 
+    { 
+        get 
+        {
+            return slots;
+        }
+    }
+    public void Initialize(int slots)
     {
-        
+        this.slots = slots;
+    }
+    
+    public void Use()
+    {
+        MyBagScript = Instantiate(bagPrefab, InventoryScript.MyInstance.transform).GetComponent<BagScript>();
+        MyBagScript.AddSlots(slots);
     }
 }

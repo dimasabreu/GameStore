@@ -4,7 +4,28 @@ using UnityEngine;
 
 public class InventoryScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private static InventoryScript instance;
+
+    public static InventoryScript MyInstance
+    {
+        get
+        {
+            if(instance == null)
+            {
+                instance = FindObjectOfType<InventoryScript>();
+            }
+            return instance;
+        }
+    }
+    //for debug
+    [SerializeField] private Item[] items;
+
+    private void Awake() 
+    {
+        Bag bag = (Bag)Instantiate(items[0]);
+        bag.Initialize(16);
+        bag.Use();
+    }
     void Start()
     {
         
