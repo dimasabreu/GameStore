@@ -5,7 +5,8 @@ using UnityEngine;
 public abstract class Character : MonoBehaviour
 {
     [SerializeField] public float speed = 1f;
-     private Vector2 direction;
+     public Vector2 direction;
+     private float moveSpeed = 5f;
     void Start()
     {
         

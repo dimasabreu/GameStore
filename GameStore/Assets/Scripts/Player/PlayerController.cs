@@ -31,25 +31,6 @@ public class PlayerController : Character
     }
 
     // Update is called once per frame
-    private void FixedUpdate() {
-        // If movement is not 0, try to move
-        if(movementInput != Vector2.zero)
-        {
-            bool success = TryMove(movementInput);
-
-            if(!success)
-            {
-                success = TryMove(new Vector2(movementInput.x, 0));
-                if(!success)
-                {
-                    success = TryMove(new Vector2(0, movementInput.y));
-                }
-            }
-        }
-        else{
-            myAnimator.SetLayerWeight(1, 0);
-        } 
-    }
 
     private void Update() 
     {
@@ -63,30 +44,6 @@ public class PlayerController : Character
         }
         Move();
         GetInput();
-    }
-
-
-    private bool TryMove(Vector2 direction)
-    {
-        // Check collisions
-        int count = rb.Cast(
-            direction,
-            movementFilter,
-            castCollisions,
-            moveSpeed * Time.fixedDeltaTime + collisionOffset);
-        
-        if(count == 0){
-            rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
-            AnimateMovement(direction);
-            return true;
-        } 
-        else
-        {
-            myAnimator.SetLayerWeight(1, 0);
-            return false;
-        }
-
-        
     }
     
 
