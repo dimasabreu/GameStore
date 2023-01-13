@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+
+public class PlayerController : Character
 {
-    private PlayerInput playerInput;
     private Animator myAnimator;
-    public float moveSpeed = 1f;
+   
+    
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
     [SerializeField] private Stat health;
@@ -18,20 +18,11 @@ public class PlayerController : MonoBehaviour
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     private void Awake() 
-    {
-        playerInput = new PlayerInput();
+    { 
         health.Initialize(initialHealth, initialHealth);
     }
 
-    private void OnEnable() 
-    {
-        playerInput.Enable();
-    }
-
-    private void OnDisable() 
-    {
-        playerInput.Disable();
-    }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -57,17 +48,21 @@ public class PlayerController : MonoBehaviour
         }
         else{
             myAnimator.SetLayerWeight(1, 0);
-        }
+        } 
+    }
 
-        if(Keyboard.current.oKey.wasPressedThisFrame)
+    private void Update() 
+    {
+        if(Input.GetKeyDown(KeyCode.O))
         {
             health.MyCurrentValue += 10;
         }
-        if(Keyboard.current.iKey.wasPressedThisFrame)
+        if(Input.GetKeyDown(KeyCode.I))
         {
             health.MyCurrentValue -= 10;
         }
-        
+        Move();
+        GetInput();
     }
 
 
@@ -93,10 +88,7 @@ public class PlayerController : MonoBehaviour
 
         
     }
-    void OnMove(InputValue movementValue)
-    {
-        movementInput = movementValue.Get<Vector2>();
-    }
+    
 
     public void AnimateMovement(Vector2 direction)
     {
@@ -106,5 +98,27 @@ public class PlayerController : MonoBehaviour
         myAnimator.SetFloat("y", direction.y);
     }
 
+    
+
+    private void GetInput()
+    {
+        direction = Vector2.zero;
+        if(Input.GetKey(KeyCode.W))
+        {
+            direction += Vector2.up;
+        }
+        if(Input.GetKey(KeyCode.A))
+        {
+            direction += Vector2.left;
+        }
+        if(Input.GetKey(KeyCode.S))
+        {
+            direction += Vector2.down;
+        }
+        if(Input.GetKey(KeyCode.D))
+        {
+            direction += Vector2.right;
+        }
+    }
 }
 

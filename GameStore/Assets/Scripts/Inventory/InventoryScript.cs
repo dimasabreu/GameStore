@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 
 public class InventoryScript : MonoBehaviour
 {
     private int openBags = 0;
     private int countBags = 0;
+    private int addItem = 0;
     private static InventoryScript instance;
     private List<Bag> bags = new List<Bag>();
 
@@ -43,37 +44,18 @@ public class InventoryScript : MonoBehaviour
 
     private void Update() {
         
-        bool isJKeyPress = Keyboard.current.jKey.isPressed;
-        if(isJKeyPress)
+        if (Input.GetKeyDown(KeyCode.K))
         {
-            countBags += 1;
-            if(countBags == 1)
-            {
-                Bag bag = (Bag)Instantiate(items[0]);
-                bag.Initialize(16);
-                bag.Use();
-            }
+            Bag bag = (Bag)Instantiate(items[0]);
+            bag.Initialize(16);
+            bag.Use();
         }
-        else
+        
+        if (Input.GetKeyDown(KeyCode.L))
         {
-            countBags = 0;
-        }
-
-        bool isBKeyPress = Keyboard.current.bKey.isPressed;
-        {
-            if (isBKeyPress)
-            {
-                openBags += 1;
-                if(openBags == 1)
-                {
-                    InventoryScript.MyInstance.OpenClose();
-                }
-            }
-            else
-            {
-                openBags = 0;
-            }
-            
+            Bag bag = (Bag)Instantiate(items[0]);
+            bag.Initialize(16);
+            AddItem(bag);
         }
     }
     
@@ -92,6 +74,19 @@ public class InventoryScript : MonoBehaviour
             }
         }
     }
+
+    public void AddItem(Item item)
+    {
+        foreach (Bag bag in bags)
+        {
+            if (bag.MyBagScript.AddItem(item))
+            {
+                return;
+            }
+        }
+    }
+
+
     public void OpenClose()
     {
         bool closedBag = bags.Find(x => !x.MyBagScript.IsOPen);

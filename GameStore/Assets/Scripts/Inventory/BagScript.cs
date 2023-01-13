@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class BagScript : MonoBehaviour
@@ -5,6 +6,8 @@ public class BagScript : MonoBehaviour
     [SerializeField] private GameObject slotPrefab;
 
     private CanvasGroup canvasGroup;
+
+    private List<SlotScript> slots = new List<SlotScript>();
 
     public bool IsOPen
     {
@@ -22,8 +25,22 @@ public class BagScript : MonoBehaviour
     {
         for (int i = 0; i < slotCount; i++)
         {
-            Instantiate(slotPrefab, transform);
+            SlotScript slot = Instantiate(slotPrefab, transform).GetComponent<SlotScript>();
+            slots.Add(slot);
         }
+    }
+
+    public bool AddItem(Item item)
+    {
+        foreach (SlotScript slot in slots)
+        {
+            if (slot.IsEmpty)
+            {
+                slot.AddItem(item);
+                return true;
+            }
+        }
+        return false;
     }
 
     public void OpenClose()

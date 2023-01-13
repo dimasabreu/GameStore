@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.InputSystem;
+
+
 
 public class UIManager : MonoBehaviour
 {
@@ -19,7 +18,10 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            InventoryScript.MyInstance.OpenClose();
+        }
     }
     
     private void ActionButtonOnClick(int btnIndex)
