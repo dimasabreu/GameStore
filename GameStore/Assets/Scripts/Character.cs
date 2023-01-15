@@ -6,7 +6,7 @@ public abstract class Character : MonoBehaviour
 {
     [SerializeField] public float speed = 1f;
      public Vector2 direction;
-     private float moveSpeed = 5f;
+     private float moveSpeed = 4f;
     void Start()
     {
         
